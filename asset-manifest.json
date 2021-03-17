@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/llemmert.github.io/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/llemmert.github.io/static/js/main.6c609948.chunk.js",
+    "main.js.map": "/llemmert.github.io/static/js/main.6c609948.chunk.js.map",
+    "runtime-main.js": "/llemmert.github.io/static/js/runtime-main.9c144fb4.js",
+    "runtime-main.js.map": "/llemmert.github.io/static/js/runtime-main.9c144fb4.js.map",
+    "static/js/2.bc596527.chunk.js": "/llemmert.github.io/static/js/2.bc596527.chunk.js",
+    "static/js/2.bc596527.chunk.js.map": "/llemmert.github.io/static/js/2.bc596527.chunk.js.map",
+    "static/js/3.e682d442.chunk.js": "/llemmert.github.io/static/js/3.e682d442.chunk.js",
+    "static/js/3.e682d442.chunk.js.map": "/llemmert.github.io/static/js/3.e682d442.chunk.js.map",
+    "index.html": "/llemmert.github.io/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/llemmert.github.io/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.bc596527.chunk.js.LICENSE.txt": "/llemmert.github.io/static/js/2.bc596527.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/llemmert.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c144fb4.js",
+    "static/js/2.bc596527.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.6c609948.chunk.js"
+  ]
+}
