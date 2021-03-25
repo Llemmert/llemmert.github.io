@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        Learn React AND MORE STUFF
+        Learn React AND MORE STUFF TIMes Tw02
         </a>
       </header>
     </div>
