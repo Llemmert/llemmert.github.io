@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        Learn React AND MORE STUFF TIMes Tw02 and THR33! four?
+        Learn React AND MORE STUFF TIMes Tw02 and THR33! four? FIVE!
         </a>
       </header>
     </div>
