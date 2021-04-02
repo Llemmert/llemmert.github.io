@@ -1,19 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import './App.css';
+import React from 'react'
+import reactDom from 'react-dom';
 
-class Hi extends React.Component {
+class Hello extends React.Component {
   render () {
-    return <h1>Hello, {this.props.name}</h1>
+    return <h1>Hello, {this.props.name}</h1>;
   }
 }
-const element = <Hi name="Logan"/>;
-function App() {
-  return (
-    ReactDOM.render(
-      element,
-      document.getElementById('root')
-    )
-  );
+const element = <Hello name="Logan"/>;
+function App(){
+reactDom.render(
+  element,
+  document.getElementById('root')
+);
 }
-
 export default App;
