@@ -16,7 +16,7 @@ class Menu extends React.Component {
       <h1 className = "App-menu">
         <a
           className= "App-link"
-          href="https://google.com"
+         
           target="_blank"
           rel="noopener noreferrer">
           About Us
