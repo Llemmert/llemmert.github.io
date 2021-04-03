@@ -11,7 +11,7 @@
   flex-direction: column;
   text-align: center;
   font-size: calc(50px + 2vmin);
-  font-family:cursive, "Comic Sans";
+  
   color: rgb(29, 207, 74);
 }
 .App-menu {
