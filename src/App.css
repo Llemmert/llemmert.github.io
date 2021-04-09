@@ -2,6 +2,8 @@
   text-align: start;
 }
 .App-header {
+  margin-top:10px;
+  margin-bottom:0px;
   background-color: #113274;
   background-image: url(https://static.thenounproject.com/png/21610-200.png);
   background-size: 200px;
@@ -15,10 +17,11 @@
   color: rgb(29, 207, 74);
 }
 .App-menu {
-  background-color:rgb(151, 187, 22);
+  margin-top:10px;
+  background-color: rgb(29, 207, 74);
   min-height: 50px;
   font-size: calc(10px + 2vmin);
 }
 .App-link {
-  color: #61dafb;
+  color:  #113274;
 }
