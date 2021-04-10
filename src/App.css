@@ -2,7 +2,7 @@
   text-align: start;
 }
 .App-header {
-  margin-top:10px;
+  margin-top:0px;
   margin-bottom:0px;
   background-color: #113274;
   background-image: url(https://static.thenounproject.com/png/21610-200.png);
@@ -17,11 +17,31 @@
   color: rgb(29, 207, 74);
 }
 .App-menu {
-  margin-top:10px;
+  padding-left:5px;
+  margin-top:0px;
+  margin-bottom:0px;
   background-color: rgb(29, 207, 74);
   min-height: 50px;
   font-size: calc(10px + 2vmin);
 }
 .App-link {
   color:  #113274;
+}
+.App-footer {
+  margin-top:0px;
+  margin-bottom:0px;
+  background-color: #113274;
+  background-image: url(https://static.thenounproject.com/png/21610-200.png);
+  background-size: 200px;
+  background-repeat: space;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.App-foot-font {
+  vertical-align: bottom;
+  font-size: calc(50px + 2vmin);
+  font-family: cursive, "Comic Sans";
+  color: white;
 }

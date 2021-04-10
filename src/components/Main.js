@@ -1,16 +1,17 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter as Router, Link } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
-import Homepage from './Homepage';
-import About from './About';
-import Samples from './Samples';
-
+import Homepage from './pages/Homepage';
+import About from './pages/About';
+import Samples from './pages/Samples';
+import Answers from './pages/Answers';
 const Main = () => {
     return(
         <Switch> 
             <Route exact path='/' component={Homepage}></Route>
             <Route exact path='/about' component={About}></Route>
             <Route exact path='/samples' component={Samples}></Route>
+            <Route exact path='/answers' component={Answers}></Route>
         </Switch>
     );
 }

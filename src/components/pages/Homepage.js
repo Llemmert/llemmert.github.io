@@ -3,9 +3,11 @@ import React from "react";
 class Homepage extends React.Component {
     render() {
         return (
-            <h1>
-                HomePage Is This.
-            </h1>
+            <div class="pages">
+                <h1 class="heading">
+                    Home
+                </h1>
+            </div>
         );
     }
 }

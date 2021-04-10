@@ -1,0 +1,56 @@
+.pages{
+    justify-content: center;
+    margin-top:0px;
+    min-height: 100vh;
+    font-family: cursive, "Comic Sans";
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#right-block {
+    margin-left:20%;
+    position: right;
+    width:80%;
+    min-height: 33vh;
+
+    text-align: right;
+    object-position: left;
+    margin-top: 2px;
+    margin-bottom:2px;
+}
+#left-block {
+    margin-right:20%;
+    position: right;
+    width:80%;
+    min-height: 33vh;
+    text-align: left;
+    vertical-align: bottom;
+    object-position: right;
+    margin-top:2px;
+    margin-bottom:2px;
+}
+#left-text {
+    padding-left:4px;
+    margin-right:40%;
+    text-align: left;
+}
+#right-text {
+    padding-right:4px;
+    margin-left:40%;
+    text-align: right;
+}
+.heading {
+    font-size: calc(8px + 2vmin);
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.body {
+    font-size: calc(5px + 2vmin);
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.image-page {
+    border-radius:8px;
+    margin-right:15%;
+    margin-left: 0%;
+    max-height: 33vh;
+}
