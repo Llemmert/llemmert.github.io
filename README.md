@@ -14,3 +14,5 @@ Each page identifier is easily updated, and each can be used as a template with 
 ## Testing:
 
 Each page and component was rendered and a simple text-match test was performed to make sure each component was rendered correctly.
+Link to testing screenshot:
+https://github.com/Llemmert/llemmert.github.io/blob/master/ReactCompTests.JPG
