@@ -1,7 +1,6 @@
 .pages{
     justify-content: center;
     margin-top:0px;
-
     font-family: "Comic Sans MS", 'Arial Narrow Bold', sans-serif;
     padding-left: 50px;
     padding-right: 50px;
@@ -15,6 +14,17 @@
 
     text-align: right;
     object-position: left;
+    margin-top: 2px;
+    margin-bottom:2px;
+}
+#center-block {
+    margin-left:10%;
+    margin-right:10%;
+    position: center;
+    width:80%;
+    min-height: 33vh;
+    text-align: center;
+    object-position: center;
     margin-top: 2px;
     margin-bottom:2px;
 }
@@ -55,7 +65,20 @@
     margin-left: 0%;
     max-height: 33vh;
 }
+.image-right {
+    align-self:right;
+    margin-right: 8%;
+    margin-left:0%;
+    max-height: 50vh;
+}
 .image-center {
     margin-left:10%;
     margin-right:30%;
+}
+.image-left {
+    align-self:left;
+    margin-top:5vh;
+    margin-right: 0%;
+    margin-left:0%;
+    max-height: 50vh;
 }

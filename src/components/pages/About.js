@@ -14,7 +14,7 @@ class About extends React.Component{
         return(
             <div class="pages">
                 <h1 class="heading">
-                    {this.state.page_title}
+                    {this.state.page_title} <br/><br/>
                 </h1>
                 <div id="left-block">
                     <img class="image-page" src={Logo} alt="NinjaLogo" ALIGN="right"/>
@@ -42,7 +42,7 @@ class About extends React.Component{
                         <p1 class="body">
                             Logan is an alt-rock loving computer science student who lives in a world
                             of movie quotes and song titles. If he's not telling someone what
-                            song is playing on the radio, he can be found binging TV shows or
+                            song is playing on the radio or on the golf course, he can be found binging TV shows or
                             grinding through some levels in Runescape. <br/><br/>
                             Howie is a man of many talents who balances out the quiz with knowledge
                             of the outdoors and great taste in all sounds acoustic. 
