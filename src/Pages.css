@@ -1,10 +1,11 @@
 .pages{
     justify-content: center;
     margin-top:0px;
-    min-height: 100vh;
+
     font-family: "Comic Sans MS", 'Arial Narrow Bold', sans-serif;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 50px;
 }
 #right-block {
     margin-left:20%;
@@ -53,4 +54,8 @@
     margin-right:15%;
     margin-left: 0%;
     max-height: 33vh;
+}
+.image-center {
+    margin-left:10%;
+    margin-right:30%;
 }

@@ -1,13 +1,20 @@
 import React from 'react'
 import Logo from '../Images/NinjaLogo.jpg'
 import Logan from '../Images/LoganGolf.jpg'
+import Hosting from '../Images/LoganHosting.jpg'
 
 class About extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            page_title: "About Us"
+        }
+    }
     render(){
         return(
             <div class="pages">
                 <h1 class="heading">
-                    About Us
+                    {this.state.page_title}
                 </h1>
                 <div id="left-block">
                     <img class="image-page" src={Logo} alt="NinjaLogo" ALIGN="right"/>
@@ -22,7 +29,7 @@ class About extends React.Component{
                             Look for us on Tuesday nights at Cruisers Bar on Horizon Drive!
                         </p1>
                         <p2 class="body">
-                            <br/><br/>*Results may vary, and you may end up experiencing the exact <br/> opposite of this feeling, depending on the night*
+                            <br/><br/>*Results may vary, and you may end up experiencing the exact opposite of this feeling, depending on the night*
                         </p2>
                     </div>
                 </div>
@@ -44,12 +51,13 @@ class About extends React.Component{
                     </div>
                 </div>
                 <div id="left-block">
+                <img class="image-page" src={Hosting} alt="LoganHosting" ALIGN="right"/>
                     <div id="left-text">
                         <h1 class="heading">
                             Them's the rules!
                         </h1>
                         <p1 class="body">
-                            Quiz Ninjas is team-styled trivia. No limits on team size here, folks.
+                            Quiz Ninjas is team-styled trivia that consists of 8 rounds of 8 questions. No limits on team size here, folks.
                             Bring some good (or smart) company and test your wits against Grand Junction's 
                             brightest. We compete for Cruisers Dollars and entry is free!
                             <br/><br/> We'll see you there!

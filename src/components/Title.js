@@ -1,11 +1,17 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 
 class Title extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      title: "Quiz Ninjas",
+      subtitle: "Pub Trivia"
+    };
+  }
     render () {
       return( 
       <h1 className ="App-header">
-        Quiz Ninjas <br/> Pub Trivia
+        {this.state.title} <br/> {this.state.subtitle}
       </h1>
       )
     }
